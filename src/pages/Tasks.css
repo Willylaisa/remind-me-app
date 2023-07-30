@@ -1,0 +1,62 @@
+.tasks-section {
+    padding: 1rem;
+    display: grid;
+    gap:1rem;
+    grid-template-columns: 1fr 3fr;
+}
+
+.tasks-section .create-task {
+    background-color: white;
+    padding: 1rem;
+    border-radius: .7rem;
+    box-shadow: 0 2px 2px;
+    min-height: 50vh;
+    max-height: 55vh;
+}
+
+.create-task-form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.create-task input, .create-task textarea, .create-task-btn{
+    padding: .4rem 1rem;
+    font-family: "Poppins", sans-serif;
+}
+.create-task-btn {
+    background-color: #02a802;
+    border: none;
+    border-radius: .3rem;
+    color: antiquewhite;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+    width: 45%;
+}
+@media screen and (max-width:768px) {
+    .tasks-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .tasks-section .create-task {
+        min-height: 10vh;
+        max-height: 58vh;
+    }
+    .create-task-btn {
+       width: 100%;
+    }
+}
+
+.individual-task {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: .3rem;   
+    margin: .5rem 1rem; 
+}
+
+.individual-task h2 {
+    color: #02a802;
+}
+

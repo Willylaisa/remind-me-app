@@ -1,0 +1,40 @@
+.--navbar {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 1px 3px;
+}
+
+ul {
+    list-style-type :none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul li{
+    color: #02a802;
+}
+
+.list-item{
+    text-decoration: none;
+    color: #02a802;
+}
+.list-item :hover {
+    cursor: pointer;
+    transition:.5s ease all ;
+    transform: scale(1.05);
+}
+
+.list-item h1 {
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.list-item h3 {
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
