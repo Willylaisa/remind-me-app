@@ -15,7 +15,7 @@ const UserTasks = () => {
   
   const fetchUserName = async () => {
     try {
-      const response = await axios.get(`http://localhost:8080/users/${id}`)
+      const response = await axios.get(`https://remind-me-app-backend.onrender.com/users/${id}`)
       setUserName(response.data.username)
     } catch (error) {
       console.log(error);
@@ -23,7 +23,7 @@ const UserTasks = () => {
   }
   const fetchTasks = async () => {
     try {
-      const response = await axios.get("http://localhost:8080/tasks")
+      const response = await axios.get("https://remind-me-app-backend.onrender.com/tasks")
       setTasks(response.data)
     } catch (error) {
       console.log( error);

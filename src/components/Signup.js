@@ -26,7 +26,7 @@ export default function Login() {
     return (
         <div className='form'>
             <h2 style={{textAlign: "center"}}>Sign up</h2>
-            <form method='post' action='http://localhost:8080/signup'>
+            <form method='post' action='https://remind-me-app-backend.onrender.com/signup'>
                     <input 
                         type="text" 
                         name="username" 
