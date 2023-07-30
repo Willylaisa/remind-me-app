@@ -6,7 +6,7 @@ const CreateTask = ({userId}) => {
     <div className='create-task'>
         <h2 style={{textAlign: "center", color: "#333"}} >Create New Task:</h2>
         <br />
-        <form className='create-task-form' action={`http://localhost:8080/create/${userId}`} method='post'>
+        <form className='create-task-form' action={`https://remind-me-app-backend.onrender.com/create/${userId}`} method='post'>
             <input type="text" name="title" id='title' required placeholder="Enter task title..." />
             <label>Date and time to receive reminder: </label>
             <input required name="datetime" id='datetime' type="datetime-local"></input>
