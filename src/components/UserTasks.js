@@ -15,7 +15,7 @@ const UserTasks = () => {
   
   const fetchUserName = async () => {
     try {
-      const response = await axios.get(`https://remind-me-app-backend.onrender.com/users/${id}`)
+      const response = await axios.get(`https://remind-me-api.vercel.app/users/${id}`)
       setUserName(response.data.username)
     } catch (error) {
       console.log(error);
@@ -23,7 +23,7 @@ const UserTasks = () => {
   }
   const fetchTasks = async () => {
     try {
-      const response = await axios.get("https://remind-me-app-backend.onrender.com/tasks")
+      const response = await axios.get("https://remind-me-api.vercel.app/tasks")
       setTasks(response.data)
     } catch (error) {
       console.log( error);
