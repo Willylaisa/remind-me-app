@@ -26,7 +26,7 @@ export default function Login() {
     return (
         <div className='form'>
             <h2 style={{textAlign: "center"}}>Sign up</h2>
-            <form method='post' action='http://16.171.196.4:443/signup'>
+            <form method='post' action='https://16.171.196.4:443/signup'>
                     <input 
                         type="text" 
                         name="username" 
