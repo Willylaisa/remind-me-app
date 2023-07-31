@@ -24,7 +24,7 @@ export default function Login() {
     return (
         <div className="form">
             <h2 style={{textAlign: "center"}}>Login</h2>
-            <form method="post" action='https://16.171.196.4:443/login'>
+            <form method="post" action='https://remind-me-api.vercel.app/login'>
                     <input 
                         type="email" 
                         name="email" 
