@@ -6,8 +6,8 @@ const Welcome = () => {
   return (
     <div className='welcome-page'>
       <section>
-        <h2>Welcome to</h2>
         <h1>Remind Me</h1>
+        <h2>All your reminders in one place</h2>
       </section>
       <section>
         <Login />
