@@ -9,7 +9,7 @@ const CreateTask = ({userId}) => {
         <form className='create-task-form' action={`https://13.51.193.134/create/${userId}`} method='post'>
             <input type="text" name="title" id='title' required placeholder="Enter task title..." />
             <label>Date and time to receive reminder: </label>
-            <input required name="datetime" id='datetime' type="datetime-local"></input>
+            <input required name="datetime" id='datetime' type="datetime"></input>
             <textarea name='description' id='description' rows={4} cols={50} placeholder="(OPTIONAL) Describe your task..."></textarea>
             <button className='create-task-btn'>Create Task</button>
         </form>
